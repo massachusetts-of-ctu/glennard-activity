@@ -70,7 +70,6 @@ a:hover{
   bottom: 0;
 }
 
-/* Main Section */
 .nav{
   background-color: green;
   
@@ -119,7 +118,6 @@ a:hover{
   padding: 10px;
 }
 
-/* Courses */
 .main-course{
   margin-top:20px ;
   text-transform: capitalize;
