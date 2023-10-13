@@ -3,7 +3,7 @@
 }
 
 .card {
-    flex: 1; /* Distribute available space equally among the cards */
+    flex: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: 5px;
