@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1c1d39;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sidebar h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 50px;
+}
+
+.sidebar ul li {
+    padding: 15px 0;
+    border-bottom: none;
+    display: flex;
+    align-items: center; 
+    padding-left: 50px;
+}
+
+.sidebar ul li i {
+    margin-right: 20px; 
+    width: 30px; 
+    text-align: left; 
+    font-size: 25px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: left; 
+}
+.sidebar ul li.active {
+    background-color: #303264; 
+}
+
+.sidebar ul li.active a {
+    color: #fff; 
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-left h1 {
+    font-size: 33px;
+}
+
+.navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.notification-icon, .avatar-icon {
+    margin: 0 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.avatar-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
