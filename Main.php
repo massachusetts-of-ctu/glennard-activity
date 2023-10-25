@@ -16,8 +16,7 @@ $all_members = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/test.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="assets/css/card.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/fontawesome-free-6.4.2-web/css/all.css?v=<?php echo time(); ?>">
     <title>Mashasutes Dashboard</title>
   
 </head>
@@ -77,10 +76,10 @@ $all_members = $conn->query($sql);
                     <p class="title"><?php echo $row["position"]; ?></p>
                     <p><?php echo $row["school"]; ?></p>
                     <div>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-threads"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     </div>
                     <p><button class="btn">Contact</button></p>
                 </div>
@@ -116,7 +115,7 @@ document.getElementById("btn").addEventListener("click", function() {
     }
 });
 </script>
- 
+ <script src="assets/css/font-awesome/fontawesome-free-6.4.2-web/js/all.js"></script>
 </body>
 </html>
 <?php

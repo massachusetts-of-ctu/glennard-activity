@@ -7,7 +7,7 @@
   <title>Masashutes</title>
   <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
   <link rel="stylesheet" href="test.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/all.min.css?v=<?php echo time(); ?>"/>
+  <link rel="stylesheet" href="assets/css/font-awesome/fontawesome.css?v=<?php echo time(); ?>"/>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=<?php echo time(); ?>">
 </head>
 <body>
